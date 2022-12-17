@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-content {
+    background: #f8f9fa;
+
+}
+
+.phandau {
+    background-image: url(../image/cantho_br.jpg);
+    height: 50vh;
+    background-size: cover;
+}
+
+
+.gioithieu-noidung {
+    margin: 50px 100px;
+    background: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.dichvu {
+    /* margin: 50px 100px; */
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.content {
+    background: white;
+    border-radius: 5px;
+}
+
+.non-content {
+    filter: blur(1px);
+    background: #e5e5e5;
+    border-radius: 5px;
+}
+
+.avt {
+    padding: 5px 5px;
+}
+
+.grid {
+    margin: 0px 80px;
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-gap: 30px;
+    align-items: center;
+    padding-left: 145px;
+}
+
+.grid>article {
+    background: #f8f9fa;
+    border: none;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+    transition: transform .3s;
+}
+
+.grid>article:hover {
+    transform: translateY(5px);
+    box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
+
+}
+
+.grid>article img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.text {
+    padding: 0 20px 20px;
+}
+
+/* .text h4{
+    text-transform: uppercase;
+} */
+
+.text button {
+    background-color: #2d7d90;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+button {
+    background-color: green;
+    width: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button:hover {
+    background: #22577a;
+    color: #fff;
+}
